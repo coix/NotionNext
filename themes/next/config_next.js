@@ -29,6 +29,8 @@ const CONFIG_NEXT = {
   WIDGET_TO_BOTTOM: false, // 显示回底
   WIDGET_DARK_MODE: false, // 显示日间/夜间模式切换
   WIDGET_TOC: true, // 移动端显示悬浮目录
+  WIDGET_PET: true, // 是否显示宠物挂件
+  WIDGET_PET_LINK: 'https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json', // 挂件模型地址 @see https://github.com/xiazeyu/live2d-widget-models
 
   ARTICLE_SHARE: process.env.NEXT_PUBLIC_ARTICLE_SHARE || false, // 文章分享功能
   ARTICLE_RELATE_POSTS: true, // 相关文章推荐
